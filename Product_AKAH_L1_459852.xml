@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context7" WorkspaceID="Approved" UseContextLocale="false">
+    <Products>
+        <Product ID="AKAH_L1_459852" UserTypeID="AKAH_L1" ParentID="Product hierarchy root">
+            <Name>AKAH Level-1</Name>
+            <AttributeLink AttributeID="AT_AKAH_Spec_Attribute">
+                <MetaData>
+                    <ValueGroup AttributeID="CompletenessScoreTrafficlights">
+                        <Value Derived="true" DerivedContextID="Context1">🟠</Value>
+                        <Value Derived="true" DerivedContextID="Context2">🟠</Value>
+                        <Value Derived="true" DerivedContextID="Context3">🟠</Value>
+                        <Value Derived="true" DerivedContextID="Context4">🟠</Value>
+                        <Value Derived="true" DerivedContextID="Context5">🟠</Value>
+                        <Value Derived="true" DerivedContextID="Context6">🟠</Value>
+                        <Value Derived="true" DerivedContextID="Context7">🟠</Value>
+                        <Value Derived="true" DerivedContextID="Context8">🟠</Value>
+                    </ValueGroup>
+                </MetaData>
+            </AttributeLink>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
