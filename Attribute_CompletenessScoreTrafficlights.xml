@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context7" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+            <Context ID="Context2" Priority="3"></Context>
+            <Context ID="Context3" Priority="3"></Context>
+            <Context ID="Context4" Priority="3"></Context>
+            <Context ID="Context5" Priority="3"></Context>
+            <Context ID="Context6" Priority="3"></Context>
+            <Context ID="Context7" Priority="3"></Context>
+            <Context ID="Context8" Priority="3"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="CompletenessScoreTrafficlights" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="true" Referenced="true" Mandatory="false">
+            <Name QualifierID="std.lang.all">CompletenessScoreTrafficlights</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="if(
+    Completeness('DefaultCompletenessPercentage')=100,
+    ' 🟢 ',
+    if(
+        Completeness('DefaultCompletenessPercentage')&amp;gt;=10,
+        '🟡',
+        '🟠'
+    )
+)"/&gt;</ValueTemplate>
+            <MetaData>
+                <ValueGroup AttributeID="ATR_Publishing_Display_Name">
+                    <Value Derived="true" DerivedContextID="Context1">CompletenessScoreTrafficlights</Value>
+                    <Value Derived="true" DerivedContextID="Context2">CompletenessScoreTrafficlights</Value>
+                    <Value Derived="true" DerivedContextID="Context3">CompletenessScoreTrafficlights</Value>
+                    <Value Derived="true" DerivedContextID="Context4">CompletenessScoreTrafficlights</Value>
+                    <Value Derived="true" DerivedContextID="Context5">CompletenessScoreTrafficlights</Value>
+                    <Value Derived="true" DerivedContextID="Context6">CompletenessScoreTrafficlights</Value>
+                    <Value Derived="true" DerivedContextID="Context7">CompletenessScoreTrafficlights</Value>
+                    <Value Derived="true" DerivedContextID="Context8">CompletenessScoreTrafficlights</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">ID: CompletenessScoreTrafficlights
+Name: CompletenessScoreTrafficlights</Value>
+                    <Value Derived="true" DerivedContextID="Context2">ID: CompletenessScoreTrafficlights
+Name: CompletenessScoreTrafficlights</Value>
+                    <Value Derived="true" DerivedContextID="Context3">ID: CompletenessScoreTrafficlights
+Name: CompletenessScoreTrafficlights</Value>
+                    <Value Derived="true" DerivedContextID="Context4">ID: CompletenessScoreTrafficlights
+Name: CompletenessScoreTrafficlights</Value>
+                    <Value Derived="true" DerivedContextID="Context5">ID: CompletenessScoreTrafficlights
+Name: CompletenessScoreTrafficlights</Value>
+                    <Value Derived="true" DerivedContextID="Context6">ID: CompletenessScoreTrafficlights
+Name: CompletenessScoreTrafficlights</Value>
+                    <Value Derived="true" DerivedContextID="Context7">ID: CompletenessScoreTrafficlights
+Name: CompletenessScoreTrafficlights</Value>
+                    <Value Derived="true" DerivedContextID="Context8">ID: CompletenessScoreTrafficlights
+Name: CompletenessScoreTrafficlights</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="CompletenessScoreTrafficlights">
+                    <Value Derived="true" DerivedContextID="Context1">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context2">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context3">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context4">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context5">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context6">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context7">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context8">🟠</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="PMDMCompletenessScorePercentage"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="PMDM.PRD.GoldenRecord"></UserTypeLink>
+            <UserTypeLink UserTypeID="PMDM.PRD.InternalSourceRecord"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.normalattribute"></UserTypeLink>
+            <LinkType LinkTypeID="CA"></LinkType>
+            <LinkType LinkTypeID="PA"></LinkType>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

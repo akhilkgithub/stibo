@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context7" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+            <Context ID="Context2" Priority="3"></Context>
+            <Context ID="Context3" Priority="3"></Context>
+            <Context ID="Context4" Priority="3"></Context>
+            <Context ID="Context5" Priority="3"></Context>
+            <Context ID="Context6" Priority="3"></Context>
+            <Context ID="Context7" Priority="3"></Context>
+            <Context ID="Context8" Priority="3"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="AT_AKAH_Desc_Attribute" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Referenced="true" Mandatory="false">
+            <Name QualifierID="std.lang.all">AT_AKAH_Desc_Attribute</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="100" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="ATR_Publishing_Display_Name">
+                    <Value Derived="true" DerivedContextID="Context1">AT_AKAH_Desc_Attribute</Value>
+                    <Value Derived="true" DerivedContextID="Context2">AT_AKAH_Desc_Attribute</Value>
+                    <Value Derived="true" DerivedContextID="Context3">AT_AKAH_Desc_Attribute</Value>
+                    <Value Derived="true" DerivedContextID="Context4">AT_AKAH_Desc_Attribute</Value>
+                    <Value Derived="true" DerivedContextID="Context5">AT_AKAH_Desc_Attribute</Value>
+                    <Value Derived="true" DerivedContextID="Context6">AT_AKAH_Desc_Attribute</Value>
+                    <Value Derived="true" DerivedContextID="Context7">AT_AKAH_Desc_Attribute</Value>
+                    <Value Derived="true" DerivedContextID="Context8">AT_AKAH_Desc_Attribute</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">ID: AT_AKAH_Desc_Attribute
+Name: AT_AKAH_Desc_Attribute</Value>
+                    <Value Derived="true" DerivedContextID="Context2">ID: AT_AKAH_Desc_Attribute
+Name: AT_AKAH_Desc_Attribute</Value>
+                    <Value Derived="true" DerivedContextID="Context3">ID: AT_AKAH_Desc_Attribute
+Name: AT_AKAH_Desc_Attribute</Value>
+                    <Value Derived="true" DerivedContextID="Context4">ID: AT_AKAH_Desc_Attribute
+Name: AT_AKAH_Desc_Attribute</Value>
+                    <Value Derived="true" DerivedContextID="Context5">ID: AT_AKAH_Desc_Attribute
+Name: AT_AKAH_Desc_Attribute</Value>
+                    <Value Derived="true" DerivedContextID="Context6">ID: AT_AKAH_Desc_Attribute
+Name: AT_AKAH_Desc_Attribute</Value>
+                    <Value Derived="true" DerivedContextID="Context7">ID: AT_AKAH_Desc_Attribute
+Name: AT_AKAH_Desc_Attribute</Value>
+                    <Value Derived="true" DerivedContextID="Context8">ID: AT_AKAH_Desc_Attribute
+Name: AT_AKAH_Desc_Attribute</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="CompletenessScoreTrafficlights">
+                    <Value Derived="true" DerivedContextID="Context1">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context2">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context3">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context4">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context5">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context6">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context7">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context8">🟠</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="ATG_AKAH_AttributeGroup"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="AKAH_L3"></UserTypeLink>
+            <UserTypeLink UserTypeID="AKAH_TargetObject_L2"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

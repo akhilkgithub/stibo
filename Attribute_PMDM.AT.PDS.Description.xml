@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context7" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+            <Context ID="Context2" Priority="3"></Context>
+            <Context ID="Context3" Priority="3"></Context>
+            <Context ID="Context4" Priority="3"></Context>
+            <Context ID="Context5" Priority="3"></Context>
+            <Context ID="Context6" Priority="3"></Context>
+            <Context ID="Context7" Priority="3"></Context>
+            <Context ID="Context8" Priority="3"></Context>
+        </Qualifier>
+        <Qualifier ID="de-DE">
+            <DimensionPointLink DimensionPointID="de-DE"></DimensionPointLink>
+            <Context ID="Context2" Priority="1"></Context>
+        </Qualifier>
+        <Qualifier ID="fr-FR">
+            <DimensionPointLink DimensionPointID="fr-FR"></DimensionPointLink>
+            <Context ID="Context3" Priority="1"></Context>
+        </Qualifier>
+        <Qualifier ID="es-ES">
+            <DimensionPointLink DimensionPointID="es-ES"></DimensionPointLink>
+            <Context ID="Context4" Priority="1"></Context>
+        </Qualifier>
+        <Qualifier ID="zh-CN">
+            <DimensionPointLink DimensionPointID="zh-CN"></DimensionPointLink>
+            <Context ID="Context6" Priority="1"></Context>
+        </Qualifier>
+        <Qualifier ID="pt-BR">
+            <DimensionPointLink DimensionPointID="pt-BR"></DimensionPointLink>
+            <Context ID="Context7" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="PMDM.AT.PDS.Description" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Referenced="true" Mandatory="false">
+            <Name QualifierID="de-DE">PDX: Beschreibung</Name>
+            <Name QualifierID="es-ES">PDX: Descripción</Name>
+            <Name QualifierID="fr-FR">PDX : Description</Name>
+            <Name QualifierID="pt-BR">PDX: Descrição</Name>
+            <Name QualifierID="std.lang.all">PDX: Description</Name>
+            <Name QualifierID="zh-CN">PDX: 说明</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="2000" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="ATR_Publishing_Display_Name">
+                    <Value Derived="true" DerivedContextID="Context1">PDX: Description</Value>
+                    <Value Derived="true" DerivedContextID="Context2">PDX: Beschreibung</Value>
+                    <Value Derived="true" DerivedContextID="Context3">PDX : Description</Value>
+                    <Value Derived="true" DerivedContextID="Context4">PDX: Descripción</Value>
+                    <Value Derived="true" DerivedContextID="Context5">PDX: Description</Value>
+                    <Value Derived="true" DerivedContextID="Context6">PDX: 说明</Value>
+                    <Value Derived="true" DerivedContextID="Context7">PDX: Descrição</Value>
+                    <Value Derived="true" DerivedContextID="Context8">PDX: Description</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">ID: PMDM.AT.PDS.Description
+Name: PDX: Description
+Purpose: Reason / help text for the attribute in PDS.</Value>
+                    <Value Derived="true" DerivedContextID="Context2">ID: PMDM.AT.PDS.Description
+Name: PDX: Beschreibung
+Purpose: Reason / help text for the attribute in PDS.</Value>
+                    <Value Derived="true" DerivedContextID="Context3">ID: PMDM.AT.PDS.Description
+Name: PDX : Description
+Purpose: Reason / help text for the attribute in PDS.</Value>
+                    <Value Derived="true" DerivedContextID="Context4">ID: PMDM.AT.PDS.Description
+Name: PDX: Descripción
+Purpose: Reason / help text for the attribute in PDS.</Value>
+                    <Value Derived="true" DerivedContextID="Context5">ID: PMDM.AT.PDS.Description
+Name: PDX: Description
+Purpose: Reason / help text for the attribute in PDS.</Value>
+                    <Value Derived="true" DerivedContextID="Context6">ID: PMDM.AT.PDS.Description
+Name: PDX: 说明
+Purpose: Reason / help text for the attribute in PDS.</Value>
+                    <Value Derived="true" DerivedContextID="Context7">ID: PMDM.AT.PDS.Description
+Name: PDX: Descrição
+Purpose: Reason / help text for the attribute in PDS.</Value>
+                    <Value Derived="true" DerivedContextID="Context8">ID: PMDM.AT.PDS.Description
+Name: PDX: Description
+Purpose: Reason / help text for the attribute in PDS.</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="CompletenessScoreTrafficlights">
+                    <Value Derived="true" DerivedContextID="Context1">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context2">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context3">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context4">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context5">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context6">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context7">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context8">🟠</Value>
+                </ValueGroup>
+                <Value QualifierID="std.lang.all" AttributeID="PMDM.AT.Purpose">Reason / help text for the attribute in PDS.</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.BuyerView"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.PDS.FixedDataModelAttributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Reference-Type user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.normalattribute"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

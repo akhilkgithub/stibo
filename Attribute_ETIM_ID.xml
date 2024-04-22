@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context7" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+            <Context ID="Context2" Priority="3"></Context>
+            <Context ID="Context3" Priority="3"></Context>
+            <Context ID="Context4" Priority="3"></Context>
+            <Context ID="Context5" Priority="3"></Context>
+            <Context ID="Context6" Priority="3"></Context>
+            <Context ID="Context7" Priority="3"></Context>
+            <Context ID="Context8" Priority="3"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="ETIM_ID" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Referenced="true" Mandatory="false">
+            <Name QualifierID="std.lang.all">ETIM ID</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="10" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="ATR_Publishing_Display_Name">
+                    <Value Derived="true" DerivedContextID="Context1">ETIM ID</Value>
+                    <Value Derived="true" DerivedContextID="Context2">ETIM ID</Value>
+                    <Value Derived="true" DerivedContextID="Context3">ETIM ID</Value>
+                    <Value Derived="true" DerivedContextID="Context4">ETIM ID</Value>
+                    <Value Derived="true" DerivedContextID="Context5">ETIM ID</Value>
+                    <Value Derived="true" DerivedContextID="Context6">ETIM ID</Value>
+                    <Value Derived="true" DerivedContextID="Context7">ETIM ID</Value>
+                    <Value Derived="true" DerivedContextID="Context8">ETIM ID</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">ID: ETIM_ID
+Name: ETIM ID</Value>
+                    <Value Derived="true" DerivedContextID="Context2">ID: ETIM_ID
+Name: ETIM ID</Value>
+                    <Value Derived="true" DerivedContextID="Context3">ID: ETIM_ID
+Name: ETIM ID</Value>
+                    <Value Derived="true" DerivedContextID="Context4">ID: ETIM_ID
+Name: ETIM ID</Value>
+                    <Value Derived="true" DerivedContextID="Context5">ID: ETIM_ID
+Name: ETIM ID</Value>
+                    <Value Derived="true" DerivedContextID="Context6">ID: ETIM_ID
+Name: ETIM ID</Value>
+                    <Value Derived="true" DerivedContextID="Context7">ID: ETIM_ID
+Name: ETIM ID</Value>
+                    <Value Derived="true" DerivedContextID="Context8">ID: ETIM_ID
+Name: ETIM ID</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="CompletenessScoreTrafficlights">
+                    <Value Derived="true" DerivedContextID="Context1">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context2">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context3">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context4">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context5">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context6">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context7">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context8">🟠</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="ETIM_Metadata_Attributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="ETIM8 Article Classification Type"></UserTypeLink>
+            <UserTypeLink UserTypeID="ETIM8 Article Group Type"></UserTypeLink>
+            <UserTypeLink UserTypeID="ETIM9 Article Classification Type"></UserTypeLink>
+            <UserTypeLink UserTypeID="ETIM9 Article Group Type"></UserTypeLink>
+            <UserTypeLink UserTypeID="Unit"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.normalattribute"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

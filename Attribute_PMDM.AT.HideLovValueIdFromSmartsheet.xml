@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context7" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+            <Context ID="Context2" Priority="3"></Context>
+            <Context ID="Context3" Priority="3"></Context>
+            <Context ID="Context4" Priority="3"></Context>
+            <Context ID="Context5" Priority="3"></Context>
+            <Context ID="Context6" Priority="3"></Context>
+            <Context ID="Context7" Priority="3"></Context>
+            <Context ID="Context8" Priority="3"></Context>
+        </Qualifier>
+        <Qualifier ID="de-DE">
+            <DimensionPointLink DimensionPointID="de-DE"></DimensionPointLink>
+            <Context ID="Context2" Priority="1"></Context>
+        </Qualifier>
+        <Qualifier ID="fr-FR">
+            <DimensionPointLink DimensionPointID="fr-FR"></DimensionPointLink>
+            <Context ID="Context3" Priority="1"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="PMDM.AT.HideLovValueIdFromSmartsheet" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" Referenced="true" Mandatory="false">
+            <Name QualifierID="de-DE">LOV-Wert-ID in Smartsheet ausblenden</Name>
+            <Name QualifierID="fr-FR">Cacher l'ID de valeur LOV des Smartsheets</Name>
+            <Name QualifierID="std.lang.all">Hide LOV Value ID From Smartsheet</Name>
+            <Validation BaseType="integer" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="ATR_Publishing_Display_Name">
+                    <Value Derived="true" DerivedContextID="Context1">Hide LOV Value ID From Smartsheet</Value>
+                    <Value Derived="true" DerivedContextID="Context2">LOV-Wert-ID in Smartsheet ausblenden</Value>
+                    <Value Derived="true" DerivedContextID="Context3">Cacher l'ID de valeur LOV des Smartsheets</Value>
+                    <Value Derived="true" DerivedContextID="Context4">Hide LOV Value ID From Smartsheet</Value>
+                    <Value Derived="true" DerivedContextID="Context5">Hide LOV Value ID From Smartsheet</Value>
+                    <Value Derived="true" DerivedContextID="Context6">Hide LOV Value ID From Smartsheet</Value>
+                    <Value Derived="true" DerivedContextID="Context7">Hide LOV Value ID From Smartsheet</Value>
+                    <Value Derived="true" DerivedContextID="Context8">Hide LOV Value ID From Smartsheet</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">ID: PMDM.AT.HideLovValueIdFromSmartsheet
+Name: Hide LOV Value ID From Smartsheet</Value>
+                    <Value Derived="true" DerivedContextID="Context2">ID: PMDM.AT.HideLovValueIdFromSmartsheet
+Name: LOV-Wert-ID in Smartsheet ausblenden</Value>
+                    <Value Derived="true" DerivedContextID="Context3">ID: PMDM.AT.HideLovValueIdFromSmartsheet
+Name: Cacher l'ID de valeur LOV des Smartsheets</Value>
+                    <Value Derived="true" DerivedContextID="Context4">ID: PMDM.AT.HideLovValueIdFromSmartsheet
+Name: Hide LOV Value ID From Smartsheet</Value>
+                    <Value Derived="true" DerivedContextID="Context5">ID: PMDM.AT.HideLovValueIdFromSmartsheet
+Name: Hide LOV Value ID From Smartsheet</Value>
+                    <Value Derived="true" DerivedContextID="Context6">ID: PMDM.AT.HideLovValueIdFromSmartsheet
+Name: Hide LOV Value ID From Smartsheet</Value>
+                    <Value Derived="true" DerivedContextID="Context7">ID: PMDM.AT.HideLovValueIdFromSmartsheet
+Name: Hide LOV Value ID From Smartsheet</Value>
+                    <Value Derived="true" DerivedContextID="Context8">ID: PMDM.AT.HideLovValueIdFromSmartsheet
+Name: Hide LOV Value ID From Smartsheet</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="CompletenessScoreTrafficlights">
+                    <Value Derived="true" DerivedContextID="Context1">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context2">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context3">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context4">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context5">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context6">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context7">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context8">🟠</Value>
+                </ValueGroup>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="PMDM.ATG.SystemAttributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="stibo.normalattribute"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context7" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+            <Context ID="Context2" Priority="3"></Context>
+            <Context ID="Context3" Priority="3"></Context>
+            <Context ID="Context4" Priority="3"></Context>
+            <Context ID="Context5" Priority="3"></Context>
+            <Context ID="Context6" Priority="3"></Context>
+            <Context ID="Context7" Priority="3"></Context>
+            <Context ID="Context8" Priority="3"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="AttributeHelpText" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="true" Derived="true" Referenced="true" Mandatory="false">
+            <Name QualifierID="std.lang.all">Attribute Help Text</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <ValueTemplate>&lt;derive expr="{b:=value('EclassDescription'),
+ c:=value('ToolTip'),
+ d:=value('ETIM_Description'),
+ e:=value('PMDM.AT.Purpose'),
+v1:=concatenate('ID: ',stepID()),
+v2:=concatenate('\nName: ', stepname()),
+v4:=if(len(b)&amp;gt;0,concatenate('\neCl@ss Description: ',b),''),
+v6:=if(len(d)&amp;gt;0,concatenate('\nETIM Description: ',d),''),
+v7:=if(len(e)&amp;gt;0,concatenate('\nPurpose: ',e),''),
+v3:=if(len(c)&amp;gt;0,concatenate('\nTool Tip: ',c),'')
+}
+concatenate(v1,v2,v3,v4,v6,v7)"/&gt;</ValueTemplate>
+            <DimensionLink DimensionID="Language"></DimensionLink>
+            <MetaData>
+                <ValueGroup AttributeID="ATR_Publishing_Display_Name">
+                    <Value Derived="true" DerivedContextID="Context1">Attribute Help Text</Value>
+                    <Value Derived="true" DerivedContextID="Context2">Attribute Help Text</Value>
+                    <Value Derived="true" DerivedContextID="Context3">Attribute Help Text</Value>
+                    <Value Derived="true" DerivedContextID="Context4">Attribute Help Text</Value>
+                    <Value Derived="true" DerivedContextID="Context5">Attribute Help Text</Value>
+                    <Value Derived="true" DerivedContextID="Context6">Attribute Help Text</Value>
+                    <Value Derived="true" DerivedContextID="Context7">Attribute Help Text</Value>
+                    <Value Derived="true" DerivedContextID="Context8">Attribute Help Text</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">ID: AttributeHelpText
+Name: Attribute Help Text
+Purpose: Used to enter mouse-over help into product attributes for display to STEP users</Value>
+                    <Value Derived="true" DerivedContextID="Context2">ID: AttributeHelpText
+Name: Attribute Help Text
+Purpose: Used to enter mouse-over help into product attributes for display to STEP users</Value>
+                    <Value Derived="true" DerivedContextID="Context3">ID: AttributeHelpText
+Name: Attribute Help Text
+Purpose: Used to enter mouse-over help into product attributes for display to STEP users</Value>
+                    <Value Derived="true" DerivedContextID="Context4">ID: AttributeHelpText
+Name: Attribute Help Text
+Purpose: Used to enter mouse-over help into product attributes for display to STEP users</Value>
+                    <Value Derived="true" DerivedContextID="Context5">ID: AttributeHelpText
+Name: Attribute Help Text
+Purpose: Used to enter mouse-over help into product attributes for display to STEP users</Value>
+                    <Value Derived="true" DerivedContextID="Context6">ID: AttributeHelpText
+Name: Attribute Help Text
+Purpose: Used to enter mouse-over help into product attributes for display to STEP users</Value>
+                    <Value Derived="true" DerivedContextID="Context7">ID: AttributeHelpText
+Name: Attribute Help Text
+Purpose: Used to enter mouse-over help into product attributes for display to STEP users</Value>
+                    <Value Derived="true" DerivedContextID="Context8">ID: AttributeHelpText
+Name: Attribute Help Text
+Purpose: Used to enter mouse-over help into product attributes for display to STEP users</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="CompletenessScoreTrafficlights">
+                    <Value Derived="true" DerivedContextID="Context1">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context2">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context3">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context4">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context5">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context6">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context7">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context8">🟠</Value>
+                </ValueGroup>
+                <Value AttributeID="DisplaySequence">4</Value>
+                <Value QualifierID="std.lang.all" AttributeID="PMDM.AT.Purpose">Used to enter mouse-over help into product attributes for display to STEP users</Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="AttributeMetaData"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="AttributeMetadata"></AttributeGroupLink>
+            <AttributeGroupLink AttributeGroupID="Metadata"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="CP-Link-Type user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="DataContainerType user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Reference-Type user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.normalattribute"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>

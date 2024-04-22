@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context7" WorkspaceID="Approved" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+            <Context ID="Context2" Priority="3"></Context>
+            <Context ID="Context3" Priority="3"></Context>
+            <Context ID="Context4" Priority="3"></Context>
+            <Context ID="Context5" Priority="3"></Context>
+            <Context ID="Context6" Priority="3"></Context>
+            <Context ID="Context7" Priority="3"></Context>
+            <Context ID="Context8" Priority="3"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeList>
+        <Attribute ID="EclassPrimaryKey" MultiValued="false" ProductMode="Property" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" Referenced="true" Mandatory="false">
+            <Name QualifierID="std.lang.all">ECLASS Primary Key</Name>
+            <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="" InputMask=""></Validation>
+            <MetaData>
+                <ValueGroup AttributeID="ATR_Publishing_Display_Name">
+                    <Value Derived="true" DerivedContextID="Context1">ECLASS Primary Key</Value>
+                    <Value Derived="true" DerivedContextID="Context2">ECLASS Primary Key</Value>
+                    <Value Derived="true" DerivedContextID="Context3">ECLASS Primary Key</Value>
+                    <Value Derived="true" DerivedContextID="Context4">ECLASS Primary Key</Value>
+                    <Value Derived="true" DerivedContextID="Context5">ECLASS Primary Key</Value>
+                    <Value Derived="true" DerivedContextID="Context6">ECLASS Primary Key</Value>
+                    <Value Derived="true" DerivedContextID="Context7">ECLASS Primary Key</Value>
+                    <Value Derived="true" DerivedContextID="Context8">ECLASS Primary Key</Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="AttributeHelpText">
+                    <Value Derived="true" DerivedContextID="Context1">ID: EclassPrimaryKey
+Name: ECLASS Primary Key
+Purpose: This is a Stibo Systems created meta data attribute holding the eclass id (harmonized, but without prefix). </Value>
+                    <Value Derived="true" DerivedContextID="Context2">ID: EclassPrimaryKey
+Name: ECLASS Primary Key
+Purpose: This is a Stibo Systems created meta data attribute holding the eclass id (harmonized, but without prefix). </Value>
+                    <Value Derived="true" DerivedContextID="Context3">ID: EclassPrimaryKey
+Name: ECLASS Primary Key
+Purpose: This is a Stibo Systems created meta data attribute holding the eclass id (harmonized, but without prefix). </Value>
+                    <Value Derived="true" DerivedContextID="Context4">ID: EclassPrimaryKey
+Name: ECLASS Primary Key
+Purpose: This is a Stibo Systems created meta data attribute holding the eclass id (harmonized, but without prefix). </Value>
+                    <Value Derived="true" DerivedContextID="Context5">ID: EclassPrimaryKey
+Name: ECLASS Primary Key
+Purpose: This is a Stibo Systems created meta data attribute holding the eclass id (harmonized, but without prefix). </Value>
+                    <Value Derived="true" DerivedContextID="Context6">ID: EclassPrimaryKey
+Name: ECLASS Primary Key
+Purpose: This is a Stibo Systems created meta data attribute holding the eclass id (harmonized, but without prefix). </Value>
+                    <Value Derived="true" DerivedContextID="Context7">ID: EclassPrimaryKey
+Name: ECLASS Primary Key
+Purpose: This is a Stibo Systems created meta data attribute holding the eclass id (harmonized, but without prefix). </Value>
+                    <Value Derived="true" DerivedContextID="Context8">ID: EclassPrimaryKey
+Name: ECLASS Primary Key
+Purpose: This is a Stibo Systems created meta data attribute holding the eclass id (harmonized, but without prefix). </Value>
+                </ValueGroup>
+                <ValueGroup AttributeID="CompletenessScoreTrafficlights">
+                    <Value Derived="true" DerivedContextID="Context1">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context2">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context3">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context4">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context5">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context6">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context7">🟠</Value>
+                    <Value Derived="true" DerivedContextID="Context8">🟠</Value>
+                </ValueGroup>
+                <Value QualifierID="std.lang.all" AttributeID="PMDM.AT.Purpose">This is a Stibo Systems created meta data attribute holding the eclass id (harmonized, but without prefix). </Value>
+            </MetaData>
+            <AttributeGroupLink AttributeGroupID="eClassMetaAttributes"></AttributeGroupLink>
+            <UserTypeLink UserTypeID="Asset user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="DEFAULT"></UserTypeLink>
+            <UserTypeLink UserTypeID="DataContainerType user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="Domain user-type root"></UserTypeLink>
+            <UserTypeLink UserTypeID="EclassFolder"></UserTypeLink>
+            <UserTypeLink UserTypeID="Unit Group"></UserTypeLink>
+            <UserTypeLink UserTypeID="Unit"></UserTypeLink>
+            <UserTypeLink UserTypeID="XML"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClassAdv_120_ApplicationClass"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClassAdv_120_CommodityClass"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClassAdv_120_Group"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClassAdv_120_MainGroup"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClassAdv_120_Root"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClassAdv_120_Segment"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClassAdv_ClassificationAspect"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClassAdv_ClassificationBlock"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClass_12.0_CommodityClass"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClass_12.0_Group"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClass_12.0_MainGroup"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClass_12.0_Segment"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClass_13.0_CommodityClass"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClass_13.0_Group"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClass_13.0_MainGroup"></UserTypeLink>
+            <UserTypeLink UserTypeID="eClass_13.0_Segment"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.BulkUpdateConfig"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.ExportManagerConfig"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.ImportManagerConfig"></UserTypeLink>
+            <UserTypeLink UserTypeID="stibo.normalattribute"></UserTypeLink>
+        </Attribute>
+    </AttributeList>
+</STEP-ProductInformation>
