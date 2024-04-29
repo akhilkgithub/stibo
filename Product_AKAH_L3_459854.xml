@@ -1,58 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<STEP-ProductInformation ContextID="Context7" WorkspaceID="Main" UseContextLocale="false">
-    <Qualifiers>
-        <Qualifier ID="AllCountries">
-            <DimensionPointLink DimensionPointID="AllCountries"></DimensionPointLink>
-            <Context ID="Context1" Priority="4"></Context>
-            <Context ID="Context2" Priority="6"></Context>
-            <Context ID="Context3" Priority="6"></Context>
-            <Context ID="Context4" Priority="6"></Context>
-            <Context ID="Context5" Priority="6"></Context>
-            <Context ID="Context6" Priority="6"></Context>
-            <Context ID="Context7" Priority="6"></Context>
-            <Context ID="Context8" Priority="6"></Context>
-        </Qualifier>
-        <Qualifier ID="std.lang.all">
-            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
-            <Context ID="Context1" Priority="2"></Context>
-            <Context ID="Context2" Priority="3"></Context>
-            <Context ID="Context3" Priority="3"></Context>
-            <Context ID="Context4" Priority="3"></Context>
-            <Context ID="Context5" Priority="3"></Context>
-            <Context ID="Context6" Priority="3"></Context>
-            <Context ID="Context7" Priority="3"></Context>
-            <Context ID="Context8" Priority="3"></Context>
-        </Qualifier>
-        <Qualifier ID="CN">
-            <DimensionPointLink DimensionPointID="CN"></DimensionPointLink>
-            <Context ID="Context6" Priority="5"></Context>
-        </Qualifier>
-        <Qualifier ID="BRA">
-            <DimensionPointLink DimensionPointID="BRA"></DimensionPointLink>
-            <Context ID="Context7" Priority="5"></Context>
-        </Qualifier>
-    </Qualifiers>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
     <Products>
         <Product ID="AKAH_L3_459854" UserTypeID="AKAH_L3" ParentID="AKAH_L2_459853">
             <Name>Sales Item</Name>
             <ClassificationReference ClassificationID="AKAH_C_L3(2)" Type="AKAH_P2C"></ClassificationReference>
-            <AssetCrossReference AssetID="461371" QualifierID="std.lang.all" Type="PMDM.IDRT.PrimaryProductImage"></AssetCrossReference>
+            <AssetCrossReference AssetID="461371" Type="PMDM.IDRT.PrimaryProductImage"></AssetCrossReference>
             <AssetCrossReference AssetID="Amaou Strawberries Box" Type="PMDM.IDRT.ProductImages"></AssetCrossReference>
             <AssetCrossReference AssetID="Amaou Strawberries Farm" Type="PMDM.IDRT.ProductImages"></AssetCrossReference>
             <AssetCrossReference AssetID="Amaou Strawberries Primary" Type="PMDM.IDRT.ProductImages"></AssetCrossReference>
             <AssetCrossReference AssetID="Amaou Strawberries detail" Type="PMDM.IDRT.ProductImages"></AssetCrossReference>
             <AssetCrossReference AssetID="Amaou Strawberry in hand" Type="PMDM.IDRT.ProductImages"></AssetCrossReference>
-            <AssetCrossReference AssetID="RedDot Icon" QualifierID="CN" Type="Icons"></AssetCrossReference>
-            <AssetCrossReference AssetID="apartment_FILL0_wght400_GRAD0_opsz48" QualifierID="AllCountries" Type="Icons"></AssetCrossReference>
-            <AssetCrossReference AssetID="folder_shared_FILL0_wght400_GRAD0_opsz48" QualifierID="AllCountries" Type="Icons"></AssetCrossReference>
-            <AssetCrossReference AssetID="individual_big" QualifierID="BRA" Type="Icons"></AssetCrossReference>
+            <AssetCrossReference AssetID="apartment_FILL0_wght400_GRAD0_opsz48" Type="Icons"></AssetCrossReference>
+            <AssetCrossReference AssetID="folder_shared_FILL0_wght400_GRAD0_opsz48" Type="Icons"></AssetCrossReference>
             <ProductCrossReference ProductID="AKAH_TargetObject_L2" Type="AKAH_Product_Reference">
                 <MetaData>
                     <Value AttributeID="AT_AKAH_Metadata">HI</Value>
                 </MetaData>
             </ProductCrossReference>
             <Values>
-                <Value AttributeID="AT_AKAH_Spec_Attribute">&lt;gt/&gt;test</Value>
+                <Value AttributeID="AT_AKAH_Spec_Attribute">&lt;gt/&gt;</Value>
             </Values>
         </Product>
     </Products>
