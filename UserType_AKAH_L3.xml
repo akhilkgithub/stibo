@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context7" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+            <Context ID="Context2" Priority="3"></Context>
+            <Context ID="Context3" Priority="3"></Context>
+            <Context ID="Context4" Priority="3"></Context>
+            <Context ID="Context5" Priority="3"></Context>
+            <Context ID="Context6" Priority="3"></Context>
+            <Context ID="Context7" Priority="3"></Context>
+            <Context ID="Context8" Priority="3"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <UserTypes>
+        <UserType ID="AKAH_L3" ManuallySorted="false" AllowInDesignTemplate="false" AllowQuarkTemplate="false" IsCategory="true" ReferenceTargetLockPolicy="Strict" IDPattern="AKAH_L3_[id]" Referenced="true">
+            <Name QualifierID="std.lang.all">AKAH_L3</Name>
+            <Icon>H4sIAAAAAAAAAHWUy05bMRCG9zyFddi0C5wZj+2xK4LUZhukrliwQRU5JJHSgCAQHr//2Ak3qZvkfPbcZzznTy9Lt18vdqvpEOLgVuN6udr175f1uP91/zodyJEL0dnZ3XqzmQ7b++04uNe/m+3TdFjtdg8/JpP9fu/34u8fl5NARBMYHi5OzpfudrN+OHv4Yx6eHzffTo3pRjndcCQh/W5idt+Mnz0+b8bpML6M2/vFYujaX84W0+EyBJ+COPESY61zDl5LcuSVgDNgUCrglJUoOWavoYZPB4HfFObso+rR2ox8Zsq54CCVmkyNqAbSEFz0oqlklCTBR6r1itUXLjMoF1gezyg7Lj7nKuZOSg3suPoYVBzDgxgp6RwxxIK6ig+SZqBCMBwsCq0OOXCido06ReNYG0rPsCRk2G4tHxih2LUF/+Ak2mxTmqNayqH7TTPTUc6GUrnZqJq5R81ivbac4tUhQ1OoNZSeO2uPAU6tPIq6fW7G9aVVW2DXZzF1YKWK2KyatWVG1TJ755DDUXyOMCJXc9Z7WWBco7HE2oKkkIBRBK155xRTFz9wTiW2VhzUNdlIvFnXkvvgpJRcRkVCL2tiboxxspLn9JEwAAfReTILZkcYislnzVmNyRoNJsrmNpPg/J0jUm/yBxaFBfeuH7Qg/KP1EItF+amg15cYDUynNUnzDNXMGjtGZkjh/ZEaa4SLYF85XmXPQtZNu0f7syd0zdpAomwhVi1i+hZOPchy5mThlGLJo1MRT8M4FzIWbtSLyQ1Lj9r6Hq2xYFWLl30iASJlG78joiJ4RgFvUXnWTjFMQAy4mlTMEoxrsH7DRy0Nu7TYJXtibR5C1NxYiI1ZuSHF+ceqXR932SmRhJ80TLCFJkv8LMa7J/zZ4vltW2mNdfN1Z9nKehxvd/9bnd30frXejd3w0Zp9HxzYhrw4+QcA6alYgQUAAA==</Icon>
+            <UserTypeLink UserTypeID="AKAH_L2"></UserTypeLink>
+            <AttributeLink AttributeID="AT_AKAH_Desc_Attribute"></AttributeLink>
+            <AttributeLink AttributeID="AT_AKAH_Spec_Attribute"></AttributeLink>
+        </UserType>
+    </UserTypes>
+</STEP-ProductInformation>

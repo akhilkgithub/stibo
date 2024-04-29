@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context7" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+            <Context ID="Context2" Priority="3"></Context>
+            <Context ID="Context3" Priority="3"></Context>
+            <Context ID="Context4" Priority="3"></Context>
+            <Context ID="Context5" Priority="3"></Context>
+            <Context ID="Context6" Priority="3"></Context>
+            <Context ID="Context7" Priority="3"></Context>
+            <Context ID="Context8" Priority="3"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="Metadata" ShowInWorkbench="false" ManuallySorted="false" Referenced="true" ParentID="Product_Attributes">
+            <Name QualifierID="std.lang.all">Metadata</Name>
+            <MetaData>
+                <Value QualifierID="std.lang.all" AttributeID="PMDM.AT.Purpose">Used for attributes on classifications, entities, party data, users, attributes, units, etc. as well as for Description attributes on products.</Value>
+            </MetaData>
+            <Configuration>H4sIAAAAAAAAAH2PSwoCMRBE93OKkAMY3ScDmjjiXmYfmXZoyEc6Hby+UTHu3PUrqh603jMTXivDiXK9zwgPBzdMyJiTmDJFzzNQaWTkbrOV4yCE/lWKuHhagbumWJ8OcFyQYTGSqYJU743NocZUXnej3v/EovPZGekgQJtPlKP17ENenWdgjF+X6jKt/j0wDk+qwBdg4AAAAA==</Configuration>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>

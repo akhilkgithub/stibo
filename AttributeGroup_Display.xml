@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context7" WorkspaceID="Main" UseContextLocale="false">
+    <Qualifiers>
+        <Qualifier ID="std.lang.all">
+            <DimensionPointLink DimensionPointID="std.lang.all"></DimensionPointLink>
+            <Context ID="Context1" Priority="2"></Context>
+            <Context ID="Context2" Priority="3"></Context>
+            <Context ID="Context3" Priority="3"></Context>
+            <Context ID="Context4" Priority="3"></Context>
+            <Context ID="Context5" Priority="3"></Context>
+            <Context ID="Context6" Priority="3"></Context>
+            <Context ID="Context7" Priority="3"></Context>
+            <Context ID="Context8" Priority="3"></Context>
+        </Qualifier>
+    </Qualifiers>
+    <AttributeGroupList>
+        <AttributeGroup ID="Display" ShowInWorkbench="true" ManuallySorted="false" Referenced="true">
+            <Name QualifierID="std.lang.all">Display</Name>
+            <MetaData>
+                <Value QualifierID="std.lang.all" AttributeID="PMDM.AT.Purpose">Used to group attributes that should be displayed together in the STEPWorkbench.</Value>
+            </MetaData>
+            <Configuration>H4sIAAAAAAAAAH2OQQrCMBBF9z1FyAGM7pOCNiqCO6X7aKcymCY1M0G8vVUx7tzN4///GL1kTnjKDNsU89gi3C30GJAxBrGJaXDcQqKJjFzM5rKuhNC/ComjSxfgoqHGhRWsO2TojOydJ5DqPWqiz0Og1z3RHsO1jD6RKLyzRlqk0bvHAW4ZwvkrUcWi1b/X6+oJG5KRAdoAAAA=</Configuration>
+        </AttributeGroup>
+    </AttributeGroupList>
+</STEP-ProductInformation>
