@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Configuration:
+<STEP-ProductInformation ResolveInlineRefs="true">
+<Products ExportSize="Selected">
+<Product>
+<Name/><AttributeLink/><DataContainerTypeLink/><ClassificationReference/><Product/>
+<ProductCrossReference/><AssetCrossReference/><EntityCrossReference/><ClassificationCrossReference/><Values/><OverrideSubProduct/></Product></Products>
+</STEP-ProductInformation>
+
+Export from AKAH Level-1
+Classifications All
+Products "AKAH_L1_459852"
+Assets All
+
+Exported by domain exporter.
+-->
+<STEP-ProductInformation ExportTime="2024-04-29 17:29:15" ExportContext="Context1" ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+
+  <Products>
+    <Product ID="AKAH_L1_459852" UserTypeID="AKAH_L1" ParentID="Product hierarchy root">
+      <Name>AKAH Level-1</Name>
+      <AttributeLink AttributeID="AT_AKAH_Spec_Attribute">
+        <MetaData>
+          <Value AttributeID="CompletenessScoreTrafficlights" Derived="true">🟠</Value>
+        </MetaData>
+      </AttributeLink>
+      <Product ID="AKAH_L2_459853" UserTypeID="AKAH_L2">
+        <Name>Level-2</Name>
+        <Product ID="AKAH_L3_459854" UserTypeID="AKAH_L3">
+          <Name>Sales Item</Name>
+          <ClassificationReference ClassificationID="AKAH_C_L3(2)" Type="AKAH_P2C"/>
+          <ProductCrossReference ProductID="AKAH_TargetObject_L2" Type="AKAH_Product_Reference">
+            <MetaData>
+              <Value AttributeID="AT_AKAH_Metadata">HI</Value>
+            </MetaData>
+          </ProductCrossReference>
+          <AssetCrossReference AssetID="apartment_FILL0_wght400_GRAD0_opsz48" Type="Icons"/>
+          <AssetCrossReference AssetID="folder_shared_FILL0_wght400_GRAD0_opsz48" Type="Icons"/>
+          <AssetCrossReference AssetID="461371" Type="PMDM.IDRT.PrimaryProductImage"/>
+          <AssetCrossReference AssetID="Amaou Strawberries Box" Type="PMDM.IDRT.ProductImages"/>
+          <AssetCrossReference AssetID="Amaou Strawberries Farm" Type="PMDM.IDRT.ProductImages"/>
+          <AssetCrossReference AssetID="Amaou Strawberries Primary" Type="PMDM.IDRT.ProductImages"/>
+          <AssetCrossReference AssetID="Amaou Strawberries detail" Type="PMDM.IDRT.ProductImages"/>
+          <AssetCrossReference AssetID="Amaou Strawberry in hand" Type="PMDM.IDRT.ProductImages"/>
+          <Values>
+            <Value AttributeID="AT_AKAH_Spec_Attribute">&lt;gt/&gt;</Value>
+          </Values>
+        </Product>
+        <Product ID="AKAH_L3_459862" UserTypeID="AKAH_L3">
+          <Name>Test</Name>
+        </Product>
+        <Product ID="AKAH_L3_459863" UserTypeID="AKAH_L3">
+          <Name>Test1</Name>
+        </Product>
+        <Product ID="AKAH_L3_459864" UserTypeID="AKAH_L3">
+          <Name>Test2</Name>
+        </Product>
+        <Product ID="AKAH_L3_459865" UserTypeID="AKAH_L3">
+          <Name>Test3</Name>
+          <Values>
+            <Value AttributeID="AT_AKAH_Desc_Attribute">ds</Value>
+          </Values>
+        </Product>
+        <Product ID="AKAH_L3_461207" UserTypeID="AKAH_L3">
+          <Name>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</Name>
+        </Product>
+      </Product>
+    </Product>
+  </Products>
+</STEP-ProductInformation>
