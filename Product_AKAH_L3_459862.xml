@@ -2,7 +2,7 @@
 <STEP-ProductInformation ContextID="Context7" WorkspaceID="Main" UseContextLocale="false">
     <Products>
         <Product ID="AKAH_L3_459862" UserTypeID="AKAH_L3" ParentID="AKAH_L2_459853">
-            <Name>Test</Name>
+            <Name>Testtestgit</Name>
         </Product>
     </Products>
 </STEP-ProductInformation>

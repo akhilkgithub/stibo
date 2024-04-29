@@ -52,7 +52,7 @@
                 </MetaData>
             </ProductCrossReference>
             <Values>
-                <Value AttributeID="AT_AKAH_Spec_Attribute">&lt;gt/&gt;</Value>
+                <Value AttributeID="AT_AKAH_Spec_Attribute">&lt;gt/&gt;test</Value>
             </Values>
         </Product>
     </Products>
