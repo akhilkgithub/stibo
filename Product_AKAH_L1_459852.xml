@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<STEP-ProductInformation ContextID="Context1" WorkspaceID="Main" UseContextLocale="false">
+    <Products>
+        <Product ID="AKAH_L1_459852" UserTypeID="AKAH_L1" ParentID="Product hierarchy root">
+            <Name>AKAH Level-1</Name>
+            <AttributeLink AttributeID="AT_AKAH_Spec_Attribute">
+                <MetaData>
+                    <Value AttributeID="CompletenessScoreTrafficlights" Derived="true">🟠</Value>
+                </MetaData>
+            </AttributeLink>
+        </Product>
+    </Products>
+</STEP-ProductInformation>
