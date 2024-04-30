@@ -14,7 +14,7 @@
             <AssetCrossReference AssetID="folder_shared_FILL0_wght400_GRAD0_opsz48" Type="Icons"></AssetCrossReference>
             <ProductCrossReference ProductID="AKAH_TargetObject_L2" Type="AKAH_Product_Reference">
                 <MetaData>
-                    <Value AttributeID="AT_AKAH_Metadata">HI</Value>
+                    <Value AttributeID="AT_AKAH_Metadata">HI test GIT</Value>
                 </MetaData>
             </ProductCrossReference>
             <Values>
